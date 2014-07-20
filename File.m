@@ -9,8 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-/// In your view did load
-
+/// In your application didFinishLaunchingWithOptions:
 
 UIImageView *greenplaceholder = [[UIImageView alloc] initWithFrame:self.window.frame];
 greenplaceholder.image = [UIImage imageNamed:@"greensquare.png"];
